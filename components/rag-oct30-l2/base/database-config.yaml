@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: rag-oct30-l2-database-config
+data:
+  VECTORDB_HOST: "rag-oct30-l2-database"
+  VECTORDB_PORT: "8000"

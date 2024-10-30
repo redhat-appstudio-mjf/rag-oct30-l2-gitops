@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: rag-oct30-l2-gitops-repository
+spec:
+  url: https://github.com/redhat-appstudio-mjf/rag-oct30-l2-gitops

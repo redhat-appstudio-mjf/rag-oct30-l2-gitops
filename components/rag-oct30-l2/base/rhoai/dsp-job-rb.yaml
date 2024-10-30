@@ -1,0 +1,12 @@
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: rag-oct30-l2-dsp-job-rolebinding
+subjects:
+  - kind: ServiceAccount
+    name: rag-oct30-l2-dsp-job
+    namespace: rag-oct30-l2
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: rag-oct30-l2-dsp-job-role
